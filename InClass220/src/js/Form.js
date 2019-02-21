@@ -17,7 +17,7 @@ const FormInput = (props) => {
             ),
             React.createElement('label', 
                                 {
-                                    htmlFor: "Password"
+                                    htmlFor: "InputPassword"
                                 }, 
                                 "Password"
             ),
@@ -29,14 +29,15 @@ const FormInput = (props) => {
                                     placeholder: "Enter Password"
                                 },
             ),
-            React.createElement('input', 
-            {
-                className: "button",
-                type: "Button",
-                id: "SubmitButton"
-                
-            },
-),
+            React.createElement('button', 
+                                {
+                                    className: "btn btn-primary",
+                                    type: "button",
+                                    id: "button-addon2",
+                                    placeholder: "Submit"
+                                    
+                                },
+            ),
             
         ]
         
